@@ -1,5 +1,8 @@
 # Changelog
 
+## v55 · 18 Nov 2026
+- Access restriction strips (sliver lots of 1.0 m or less between the site and a road) are flagged: the road stays a frontage, the strip is labelled on the plan with a red sheet note, and the JSON (schema 1.8) records it on the frontage and in the summary.
+
 ## v54 · 26 Oct 2026
 - Version stamp in the header. First GitHub Pages release.
 
