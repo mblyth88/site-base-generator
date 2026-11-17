@@ -1,5 +1,8 @@
 # Changelog
 
+## v56 · 18 Nov 2026
+- Kerb anchor trace: only high-confidence kerb points are locked in (max one per 15 m), joined with straight lines parallel to the boundary, with an 8 m minimum radius on every curve - removes the lumps around trees, shadows and parked cars.
+
 ## v55 · 18 Nov 2026
 - Access restriction strips (sliver lots of 1.0 m or less between the site and a road) are flagged: the road stays a frontage, the strip is labelled on the plan with a red sheet note, and the JSON (schema 1.8) records it on the frontage and in the summary.
 
