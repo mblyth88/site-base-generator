@@ -1,5 +1,8 @@
 # Changelog
 
+## v57 · 18 Nov 2026
+- Faster on slow connections: aerial imagery as JPEG (q95, ~3x smaller than PNG), the building image cropped from the kerb image (only the edge strips downloaded), and downloads only abandoned if no data arrives for 45 s (the old 60 s cut-off re-requested slow downloads from scratch and could fail the run). Download progress shows in the status line.
+
 ## v56 · 18 Nov 2026
 - Kerb anchor trace: only high-confidence kerb points are locked in (max one per 15 m), joined with straight lines parallel to the boundary, with an 8 m minimum radius on every curve - removes the lumps around trees, shadows and parked cars.
 
