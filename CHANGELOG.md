@@ -1,5 +1,8 @@
 # Changelog
 
+## v58 · 27 Nov 2026
+- Seqwater trunk mains and easements (Seqwater Network and Easement data, hosted in data/seqwater/): heavy main line, red dashed easements, red boxed labels at twice the service text size, and a warning when a main or easement is within 10 m of the site (Seqwater consent is needed for works within 5 m). JSON schema 1.9 adds existing.seqwater.
+
 ## v57 · 18 Nov 2026
 - Faster on slow connections: aerial imagery as JPEG (q95, ~3x smaller than PNG), the building image cropped from the kerb image (only the edge strips downloaded), and downloads only abandoned if no data arrives for 45 s (the old 60 s cut-off re-requested slow downloads from scratch and could fail the run). Download progress shows in the status line.
 
